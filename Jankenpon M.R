@@ -15,12 +15,12 @@ cat("u chose:", user, "\n")
 cat("bot chose:", bot, "\n")
 
 if(user==bot){
-  return("woilah seri cik")
+  return("tie")
 }else if(
   (user=="rock"&bot=="paper")|
   (user=="paper"&bot=="scissor")|
   (user=="scissor"&bot=="rock")
-){return("cupu kalah ama bot") 
+){return("loosin to a CLANKER") 
 }else{
   return(paste("winning?", "to a bot?"))}
 }
